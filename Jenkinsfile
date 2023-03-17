@@ -6,7 +6,7 @@ pipeline {
                 JAVA_HOME = tool('jdk-17')
             }
             steps {
-                sh './mvnww clean package'
+                sh './mvnw clean package'
             }
         }
     }
