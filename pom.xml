@@ -48,9 +48,12 @@
             <executable>sh</executable>
             <arguments>
               <argument>-c</argument>
-              <argument>export PATH="$PATH:/var/lib/jenkins/tools/jenkins.plugins.nodejs.tools.NodeJSInstallation/16.18.1/bin/" 
-		      &amp;&amp; npm install -g n &amp;&amp; n 16.18.1 &amp;&amp; npm install -g npm@8.19.2</argument>
-            </arguments>
+              <argument>
+		  export PATH="$PATH:/var/lib/jenkins/tools/jenkins.plugins.nodejs.tools.NodeJSInstallation/16.18.1/bin/"
+		  npm install -g n
+		  n 16.18.1
+		  npm install -g npm@8.19.2
+		</argument>
           </configuration>
         </execution>
       </executions>
